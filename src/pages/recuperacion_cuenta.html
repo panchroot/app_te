@@ -1,0 +1,27 @@
+{{> top_bar_out}}
+<br>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+<div class="grid-container">
+  <div class="grid-x align-center">
+    <div class="cell small-12 medium-4 large-3">
+      <p class="text-left">Ingrese la dirección de correo electrónico asociado a su cuenta y en breves minutos le enviaremos las instrucciones de acceso.</p>
+      <form>
+        <input type="text" value="" placeholder="Correo Electrónico" id="correo_recuperacion">
+        <p><input type="submit" class="button expanded" value="Enviar"></input></p>
+        <div class="callout alert" data-closable>
+          <span>Correo no válido</span>
+          <button class="close-button" aria-label="Cerrar" type="button" data-close>
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="callout success" data-closable>
+          <p>Envío realizado exitosamente</p>
+          <a href="index.html"><i class="fa fa-angle-left"></i> Volver al inicio de sesión</a>
+          <button class="close-button" aria-label="Cerrar" type="button" data-close>
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,363 @@
+{{> mobile-nav-bar}}
+<!--div class="text-center">Mesas</div-->
+<ul class="tabs grid-x text-center" data-tabs id="mesas_votacion">
+  <li class="tabs-title is-active small-4"><a href="#mesa1" aria-selected="true">Mesa 1</a></li>
+  <li class="tabs-title small-4"><a data-tabs-target="mesa2" href="#mesa2">Mesa 2</a></li>
+  <li class="tabs-title small-4"><a data-tabs-target="mesa3" href="#mesa3">Mesa 3</a></li>
+</ul>
+<div class="tabs-content" data-tabs-content="mesas_votacion">
+  <div class="tabs-panel is-active" id="mesa1">
+    <div class="grid-container">
+      <div class="grid-x align-center">
+        <div class="cell small-12 medium-6">
+          <form>
+            <div class="grid-x grid-padding-x">
+              <div class="small-8 cell">
+                <label for="m1_votos_mesa" class="text-left middle">Total votos en mesa</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m1_votos_mesa" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m1_petro" class="text-left middle">Gustavo Petro</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m1_petro" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m1_promotoresvb" class="text-left middle">Promotores voto blanco</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m1_promotoresv" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m1_duque" class="text-left middle">Ivan Duque</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m1_duque" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m1_delacalle" class="text-left middle">Humberto de la Calle</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m1_delacalle" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m1_trujillo" class="text-left middle">Jorge Antonio Trujillo</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m1_trujillo" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m1_fajardo" class="text-left middle">Sergio Fajardo</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m1_fajardo" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m1_morales" class="text-left middle">Viviane Morales</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m1_morales" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m1_cordoba" class="text-left middle">Piedad Cordoba</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m1_cordoba" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m1_lleras" class="text-left middle">Germán Vargas Lleras</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m1_lleras" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m1_total_validos" class="text-left middle">Total votos válidos</label>
+              </div>
+              <div class="small-4 cell">
+                <input disabled type="number" id="m1_total_validos" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m1_blanco" class="text-left middle">Votos en blanco</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m1_blanco" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m1_nulos" class="text-left middle">Votos nulos</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m1_nulos" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m1_nomarcados" class="text-left middle">Votos no marcados</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m1_nomarcados" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m1_total" class="text-left middle">Total votos</label>
+              </div>
+              <div class="small-4 cell">
+                <input disabled type="number" id="m1_total" value="0">
+              </div>
+              <label for="img_e14" class="button warning expanded"><i class="fa fa-image"></i> E-14</label>
+              <input type="file" id="img_e14" class="show-for-sr">
+              <input type="submit" class="button expanded" value="Enviar Datos"></input>
+              <div class="callout alert small-12" data-closable>
+                <span>Error en el envío</span>
+                <button class="close-button" aria-label="Cerrar" type="button" data-close>
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="callout success small-12" data-closable>
+                <p>Envío exitoso</p>
+                <a href="index.html"><i class="fa fa-angle-left"></i> Volver al inicio</a>
+                <button class="close-button" aria-label="Cerrar" type="button" data-close>
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tabs-panel" id="mesa2">
+    <div class="grid-container">
+      <div class="grid-x align-center">
+        <div class="cell small-12 medium-6">
+          <form>
+            <div class="grid-x grid-padding-x">
+              <div class="small-8 cell">
+                <label for="m2_votos_mesa" class="text-left middle">Total votos en mesa</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m2_votos_mesa" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m2_petro" class="text-left middle">Gustavo Petro</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m2_petro" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m2_promotoresvb" class="text-left middle">Promotores voto blanco</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m2_promotoresv" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m2_duque" class="text-left middle">Ivan Duque</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m2_duque" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m2_delacalle" class="text-left middle">Humberto de la Calle</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m2_delacalle" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m2_trujillo" class="text-left middle">Jorge Antonio Trujillo</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m2_trujillo" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m2_fajardo" class="text-left middle">Sergio Fajardo</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m2_fajardo" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m2_morales" class="text-left middle">Viviane Morales</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m2_morales" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m2_cordoba" class="text-left middle">Piedad Cordoba</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m2_cordoba" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m2_lleras" class="text-left middle">Germán Vargas Lleras</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m2_lleras" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m2_total_validos" class="text-left middle">Total votos válidos</label>
+              </div>
+              <div class="small-4 cell">
+                <input disabled type="number" id="m2_total_validos" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m2_blanco" class="text-left middle">Votos en blanco</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m2_blanco" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m2_nulos" class="text-left middle">Votos nulos</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m2_nulos" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m2_nomarcados" class="text-left middle">Votos no marcados</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m2_nomarcados" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m2_total" class="text-left middle">Total votos</label>
+              </div>
+              <div class="small-4 cell">
+                <input disabled type="number" id="m2_total" value="0">
+              </div>
+              <label for="img_e14" class="button warning expanded"><i class="fa fa-image"></i> E-14</label>
+              <input type="file" id="img_e14" class="show-for-sr">
+              <input type="submit" class="button expanded" value="Enviar Datos"></input>
+              <div class="callout alert small-12" data-closable>
+                <span>Error en el envío</span>
+                <button class="close-button" aria-label="Cerrar" type="button" data-close>
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="callout success small-12" data-closable>
+                <p>Envío exitoso</p>
+                <a href="index.html"><i class="fa fa-angle-left"></i> Volver al inicio</a>
+                <button class="close-button" aria-label="Cerrar" type="button" data-close>
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tabs-panel" id="mesa3">
+    <div class="grid-container">
+      <div class="grid-x align-center">
+        <div class="cell small-12 medium-6">
+          <form>
+            <div class="grid-x grid-padding-x">
+              <div class="small-8 cell">
+                <label for="m3_votos_mesa" class="text-left middle">Total votos en mesa</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m3_votos_mesa" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m3_petro" class="text-left middle">Gustavo Petro</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m3_petro" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m3_promotoresvb" class="text-left middle">Promotores voto blanco</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m3_promotoresv" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m3_duque" class="text-left middle">Ivan Duque</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m3_duque" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m3_delacalle" class="text-left middle">Humberto de la Calle</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m3_delacalle" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m3_trujillo" class="text-left middle">Jorge Antonio Trujillo</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m3_trujillo" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m3_fajardo" class="text-left middle">Sergio Fajardo</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m3_fajardo" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m3_morales" class="text-left middle">Viviane Morales</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m3_morales" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m3_cordoba" class="text-left middle">Piedad Cordoba</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m3_cordoba" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m3_lleras" class="text-left middle">Germán Vargas Lleras</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m3_lleras" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m3_total_validos" class="text-left middle">Total votos válidos</label>
+              </div>
+              <div class="small-4 cell">
+                <input disabled type="number" id="m3_total_validos" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m3_blanco" class="text-left middle">Votos en blanco</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m3_blanco" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m3_nulos" class="text-left middle">Votos nulos</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m3_nulos" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m3_nomarcados" class="text-left middle">Votos no marcados</label>
+              </div>
+              <div class="small-4 cell">
+                <input type="number" id="m3_nomarcados" value="0">
+              </div>
+              <div class="small-8 cell">
+                <label for="m3_total" class="text-left middle">Total votos</label>
+              </div>
+              <div class="small-4 cell">
+                <input disabled type="number" id="m3_total" value="0">
+              </div>
+              <label for="img_e14" class="button warning expanded"><i class="fa fa-image"></i> E-14</label>
+              <input type="file" id="img_e14" class="show-for-sr">
+              <input type="submit" class="button expanded" value="Enviar Datos"></input>
+              <div class="callout alert small-12" data-closable>
+                <span>Error en el envío</span>
+                <button class="close-button" aria-label="Cerrar" type="button" data-close>
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="callout success small-12" data-closable>
+                <p>Envío exitoso</p>
+                <a href="index.html"><i class="fa fa-angle-left"></i> Volver al inicio</a>
+                <button class="close-button" aria-label="Cerrar" type="button" data-close>
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

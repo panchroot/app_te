@@ -1,0 +1,47 @@
+.menu li a{
+  color: #fff;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .top-bar{
+    padding: 0 !important;
+  }
+  .menu{
+    background-color: #331135 !important;
+  }
+  .menu li{
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #1d0a1e;
+    border-top: 1px solid #501b53;
+  }
+  .menu li:hover{
+    font-weight: bold;
+    background-color: #501b53;
+  }
+  .menu li a{
+    padding: 20px !important;
+    color: #e3e3e3 !important;
+  }
+  .menu li a:hover{
+    color: #fff !important;
+  }
+}
+
+#mesa1 input[type=number],
+#mesa2 input[type=number],
+#mesa3 input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#mesa1 input[type=number]::-webkit-inner-spin-button,
+#mesa1 input[type=number]::-webkit-outer-spin-button,
+#mesa2 input[type=number]::-webkit-inner-spin-button,
+#mesa2 input[type=number]::-webkit-outer-spin-button,
+#mesa3 input[type=number]::-webkit-inner-spin-button,
+#mesa3 input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
