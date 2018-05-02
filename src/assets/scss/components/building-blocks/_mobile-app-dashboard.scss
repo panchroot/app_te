@@ -1,14 +1,17 @@
 $mobile-app-dashboard-height: 60vh;
-$mobile-app-dashboard-item-color: $dark-gray;
+$mobile-app-dashboard-item-color: $morado;
 $mobile-app-dashboard-img-size: rem-calc(50);
 $mobile-app-dashboard-bg: transparent;
 
 .mobile-app-dashboard-header {
   display: flex;
-  height: 100vh - $mobile-app-dashboard-height;
+  height: 80vh - $mobile-app-dashboard-height;
+
+//  width: 100%;
   align-items: center;
   justify-content: center;
-  background: url('https://images.pexels.com/photos/59519/pexels-photo-59519.jpeg?h=350&auto=compress&cs=tinysrgb') center center no-repeat;
+  background: url('../img/banner_app.jpeg') center center no-repeat;
+  background-size: 100%;
 
   h1 {
     color: $white;
@@ -39,6 +42,10 @@ $mobile-app-dashboard-bg: transparent;
     &:nth-child(2n-1){
       border-right: 1px solid $mobile-app-dashboard-item-color;
     }
+  }
+
+  a span{
+    margin-top: 10px;
   }
 
   .mobile-app-dashboard-inner {
